@@ -1,0 +1,61 @@
+const customeFeild = {
+  field: [
+    {
+      inputType: "text",
+      name: "surname",
+      isRequired: true,
+      className: "blueBoarder",
+      placeholder: "Surname",
+      value: "",
+    },
+    {
+      inputType: "text",
+      name: "initial",
+      isRequired: true,
+      className: "blueBoarder",
+      placeholder: "Initial",
+      value: "",
+    },
+    {
+      inputType: "number",
+      name: "year",
+      isRequired: true,
+      className: "blueBoarder",
+      placeholder: "Year of publication",
+      value: "",
+    },
+    {
+      inputType: "text",
+      name: "title",
+      isRequired: true,
+      className: "blueBoarder",
+      placeholder: "Title",
+      value: "",
+    },
+    {
+      inputType: "text",
+      name: "module",
+      isRequired: true,
+      className: "blueBoarder",
+      placeholder: "Module name",
+      value: "",
+    },
+    {
+      inputType: "text",
+      name: "university",
+      isRequired: true,
+      className: "blueBoarder",
+      placeholder: "Unversity",
+      value: "",
+    },
+    {
+      inputType: "date",
+      name: "date",
+      isRequired: true,
+      className: "blueBoarder",
+      placeholder: "Date",
+      value: "",
+    },
+  ],
+};
+export default customeFeild;
